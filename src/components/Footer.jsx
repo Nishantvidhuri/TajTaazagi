@@ -149,15 +149,15 @@ function Footer() {
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Subscribe to Our Newsletter</h3>
               <p className="text-gray-600">Stay updated with our latest events and special offers.</p>
             </div>
-            <form className="flex gap-4">
+            <form className="flex flex-col sm:flex-row gap-4 w-full">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg bg-white border border-gray-200 text-gray-900 placeholder-gray-400 focus:outline-none focus:border-pink-500 transition-colors duration-300 shadow-sm"
+                className="flex-1 px-4 py-3 rounded-lg bg-white border border-gray-200 text-gray-900 placeholder-gray-400 focus:outline-none focus:border-pink-500 transition-colors duration-300 shadow-sm w-full"
               />
               <button
                 type="submit"
-                className="px-6 py-3 bg-pink-600 text-white rounded-lg hover:bg-pink-500 transition-colors duration-300 shadow-sm"
+                className="px-6 py-3 bg-pink-600 text-white rounded-lg hover:bg-pink-500 transition-colors duration-300 shadow-sm w-full sm:w-auto"
               >
                 Subscribe
               </button>
