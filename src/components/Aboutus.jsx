@@ -68,7 +68,7 @@ function Aboutus() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <div className="absolute inset-0 bg-gradient-to-br from-pink-600/20 to-purple-600/20  z-10"></div>
               <video
-                src="/src/assets/video/video3.mp4"
+                src="/video/video3.mp4"
                 className="w-full h-[600px] object-cover"
                 autoPlay
                 loop
